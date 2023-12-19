@@ -1,0 +1,101 @@
+body{
+    background-image: url(/wallpaperflare.com_wallpaper\ \(6\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    background-color: transparent;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    font-family: Georgia, serif;
+}
+
+header * {
+    display: inline;
+}
+
+.a-image{
+    position: absolute;
+    top: -9%;
+    height: 60px;
+    width: 60px;
+}
+.imahe{
+    height: 40px;
+    width: 40px;
+    position:absolute;
+    top: 9%;
+    left: 0.9%;
+}
+
+header li {
+    margin: 20px;
+    height: 50px;
+}
+
+header li a {
+    color: rgb(249, 249, 224);
+    text-decoration: none;
+}
+
+a{
+    color: rgb(249, 249, 224);
+    text-decoration: none;
+    margin-right: 1000px;
+}
+
+.nawng{
+    margin-left: 350px;
+    margin-top: 50px;
+    width: auto;
+    border-radius: 20%;
+    height: 300px;
+    border: 2px solid rgb(249, 249, 224);
+}
+
+@keyframes magic {
+    0%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.text{
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    color: white;
+    width: 700px;
+    margin-left: 100px;
+    margin-top: 20px;                                                           
+}
+
+.aboutme{
+    animation: magic 2s forwards ease-in-out;
+}
+
+
+.motto{
+    color: rgb(249, 249, 224);
+    background-color: transparent;
+    width: 1000px;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: Georgia, serif;
+}
+img:hover{
+    scale: 1.12;
+    transition: .5s;
+}
